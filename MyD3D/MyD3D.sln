@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d3dUtility", "d3dUtility\d3dUtility.vcproj", "{C4812419-E213-4287-8517-50608E404333}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WireFrame", "WireFrame\WireFrame.vcproj", "{68941D26-D74B-4BF2-8E43-CD6AB555B315}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4812419-E213-4287-8517-50608E404333} = {C4812419-E213-4287-8517-50608E404333}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4812419-E213-4287-8517-50608E404333}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4812419-E213-4287-8517-50608E404333}.Debug|Win32.Build.0 = Debug|Win32
+		{C4812419-E213-4287-8517-50608E404333}.Release|Win32.ActiveCfg = Release|Win32
+		{C4812419-E213-4287-8517-50608E404333}.Release|Win32.Build.0 = Release|Win32
+		{68941D26-D74B-4BF2-8E43-CD6AB555B315}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68941D26-D74B-4BF2-8E43-CD6AB555B315}.Debug|Win32.Build.0 = Debug|Win32
+		{68941D26-D74B-4BF2-8E43-CD6AB555B315}.Release|Win32.ActiveCfg = Release|Win32
+		{68941D26-D74B-4BF2-8E43-CD6AB555B315}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
